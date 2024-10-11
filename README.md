@@ -1,7 +1,7 @@
 ## ToDoList
 
 ## Descripción
-Proyecto de gestión de tareas con un backend hecho en Node.js y un frontend en React.
+Proyecto de gestión de tareas hecho con un backend en ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white) y un frontend en ![ReactJs](https://img.shields.io/badge/ReactJs-61DAFB?style=for-the-badge&logo=react&logoColor=white).
    
 ## Comandos
 
