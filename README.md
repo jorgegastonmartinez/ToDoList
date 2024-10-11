@@ -23,12 +23,12 @@ cd ToDoList/Frontend
 npm install
 ```
 
-4. En una segunda terminal ejecutar el Back
+4. En una terminal de tu editor de código ejecutar el Back
 ```
 npm start
 ```
 
-5. En una terminal ejecutar el Front
+5. En una segunda terminal ejecutar el Front
 ```
 npm run dev
 ```
