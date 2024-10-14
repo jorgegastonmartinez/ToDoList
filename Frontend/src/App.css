@@ -12,14 +12,29 @@
   justify-content: center;
 }
 
+.title-app {
+  font-family: 'Courier New';
+  font-size: 2.5rem;
+  font-weight: 700; 
+  color: #555555; 
+  text-align: center; 
+  margin: 4rem 0; 
+  padding: 1rem; 
+  border-radius: 10px; 
+  transition: all 0.2s ease; 
+}
+
+.title-app:hover {
+  transform: scale(1.05);
+}
+
 .task-card-container {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
-  padding: 4rem;
+  gap: 2rem;
   background-color: #f0f0f0; 
-  padding: 1rem; 
+  padding: 4rem 1rem; 
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }

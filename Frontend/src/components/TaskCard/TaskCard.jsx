@@ -41,7 +41,7 @@ const TaskCard = ({ task, onEdit, onDelete, onToggleStatus }) => {
         >
           {task.task}
         </Typography>
-        <Typography variant="h5" color="textSecondary">
+        <Typography variant="h7" color="textSecondary">
           {new Date(task.createdAt).toLocaleDateString()}
         </Typography>
       </CardContent>
@@ -64,18 +64,16 @@ const TaskCard = ({ task, onEdit, onDelete, onToggleStatus }) => {
           variant="contained"
           color="primary"
           onClick={() => onEdit(task._id)}
-          startIcon={<EditIcon />}
         >
-          Editar
+          <EditIcon />
         </EditButton>
         <DeleteButton
           size="small"
           variant="contained"
           color="secondary"
           onClick={() => onDelete(task._id)}
-          startIcon={<DeleteIcon />}
         >
-          Eliminar
+          <DeleteIcon />
         </DeleteButton>
       </CardActions>
     </Card>

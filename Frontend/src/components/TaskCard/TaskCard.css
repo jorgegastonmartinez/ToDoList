@@ -7,13 +7,12 @@
 }
 .card-content {
     display: flex; 
-    justify-content: center;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: .5rem;
     word-wrap: break-word; 
 }
 
 .card-action {
     display: flex; 
-    gap: 1rem;
+    gap: .5rem;
 }

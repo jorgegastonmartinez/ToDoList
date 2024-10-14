@@ -17,14 +17,13 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Ingrese una nueva tarea</h1>
+      <h1 className='title-app'>¡AGREGA TU PRÓXIMA TAREA!</h1>
       <TaskForm
         newTask={newTask}
         setNewTask={setNewTask}
         handleTasks={handleTasks}
       />
 
-      <h2>Lista de tareas</h2>
       <div className="task-card-container">
         {tasks.map((task) => (
           <TaskCard

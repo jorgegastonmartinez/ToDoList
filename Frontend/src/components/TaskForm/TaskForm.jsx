@@ -54,7 +54,7 @@ const TaskForm = ({ newTask, setNewTask, handleTasks }) => {
         </div>
       </Box>
       <AddButton variant="contained" type="submit">
-        Agregar tarea
+        Agregar
       </AddButton>
     </form>
   );
