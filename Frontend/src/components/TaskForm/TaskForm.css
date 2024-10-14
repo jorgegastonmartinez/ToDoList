@@ -1,0 +1,16 @@
+.form-task {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.form-box {
+    display: flex;
+}
+.form-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

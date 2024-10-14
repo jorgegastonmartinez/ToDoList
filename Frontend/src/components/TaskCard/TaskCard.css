@@ -1,0 +1,19 @@
+.task-card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 100%;
+}
+.card-content {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    word-wrap: break-word; 
+}
+
+.card-action {
+    display: flex; 
+    gap: 1rem;
+}
